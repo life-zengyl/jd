@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../layer/skin/default/layer.css">
+    <style>
+        @supports (display:none) {
+            dot {
+                display: inline-block;
+                width: 3ch;
+                text-indent: -1ch;
+                vertical-align: bottom;
+                overflow: hidden;
+                animation: dot 3s infinite step-start both;
+                font-family: Consolas, Monaco, monospace;
+            }
+        }
+
+        @keyframes dot {
+            33% {
+                text-indent: 0;
+            }
+            66% {
+                text-indent: -2ch;
+            }
+        }
+        img {
+            max-width: 100%;
+            border-radius: 0.5rem;
+        }
+
+        .wrapper {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .wrapper li {
+            box-sizing: border-box;
+            padding: 1em;
+            min-width: 1%;
+        }
+
+        .wrapper li:nth-child(2) {
+            align-self: center;
+        }
+
+        .wrapper li:nth-child(3) {
+            align-self: start;
+        }
+
+        .wrapper li:nth-child(4) {
+            align-self: end;
+        }
+
+    </style>
+</head>
+<body>
+<ul class="wrapper">
+    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery1.jpg" alt="Balloon"></li>
+    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery2.jpg" alt="Balloons"></li>
+    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery3.jpg" alt="Balloons"></li>
+    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery6.jpg" alt="Balloon"></li>
+</ul>
+<a href="javascript:" class="grebtn" id="tj">订单提交中<dot>...</dot></a>
+</body>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../layer/layer.js"></script>
+<script>
+
+
+//$(function () {
+//    var index = layer.load(1,{time:500}); //换了种风格
+//
+//})
+
+</script>
+</html>

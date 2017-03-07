@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+           counter-reset: sum;
+        }
+        #number1:checked{
+            counter-increment: sum 10;
+        }
+        #number2:checked{counter-increment: sum 20}
+        #number3:checked{counter-increment: sum 30}
+        #number4:checked{counter-increment: sum -2}
+        #number5:checked{counter-increment: sum -22}
+        #number6:checked{counter-increment: sum 12}
+        p::after{content: '='counter(sum)}
+        #number1:checked ~
+        #number2:checked ~
+        #number3:not(:checked) ~
+        #number4:not(:checked) ~
+        #number5:not(:checked) ~
+        #number6:checked ~
+        p::after {
+            content: ' (万岁！)';
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><label for="number1"><input id="number1" type="checkbox">10</label></li>
+    <li><label for="number2"><input id="number2" type="checkbox">+20</label></li>
+    <li><label for="number3"><input id="number3" type="checkbox">+30</label></li>
+    <li><label for="number4"><input id="number4" type="checkbox">-2</label></li>
+    <li><label for="number5"><input id="number5" type="checkbox">-22</label></li>
+    <li><label for="number6"><input id="number6" type="checkbox">+12</label></li>
+</ul>
+<p>你所选数目之和：</p>
+
+</body>
+</html>

@@ -1,0 +1,579 @@
+.icon-toutiao {
+  background-image: url(../slice/toutiao@2x.png);
+  height: 2rem;
+  width: 3rem;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.everyday-tj {
+  background-image: url(../slice/everyday-tj@2x.png);
+  height: 1.5rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.icon-xsqj {
+  background-image: url(../slice/everyday-tj@2x.png);
+  height: 1.5rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.color-orange {
+  color: #ff6400 !important;
+}
+
+header {
+  height: 2.5rem;
+  text-align: center;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  line-height: 2.5rem;
+  width: 100%;
+  font-size: 0.7rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+header .header-left {
+  width: 3.5rem;
+  float: left;
+}
+
+header .header-left a {
+  font-size: 0.6rem;
+}
+
+header .header-right {
+  float: right;
+}
+
+header .header-right a {
+  font-size: 1.2rem;
+}
+
+header h1 {
+  width: 60%;
+  font-size: inherit;
+  font-weight: normal;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0.5rem auto 0.5rem 23%;
+}
+
+header h1.search {
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+main {
+  width: 100%;
+}
+
+main .index-banner {
+  width: inherit;
+  height: 8rem;
+}
+
+main .index-banner img {
+  width: 100%;
+  max-width: 100%;
+}
+
+main nav {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-flow: row wrap;
+  height: 10.5rem;
+  background: #fff;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+main nav .nav-item {
+  width: 25%;
+  padding-bottom: 0.5rem;
+  font-size: 0.6rem;
+}
+
+main nav .nav-item img {
+  width: 3rem;
+  height: 3rem;
+}
+
+main .index-section-one {
+  margin-top: 0.2rem;
+}
+
+main .index-section-one .content-one {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  height: 2.25rem;
+  background: #fff;
+  line-height: 2.25rem;
+  padding: 0 0.5rem;
+}
+
+main .index-section-one .content-one .tt {
+  margin-top: 0.3rem;
+}
+
+main .index-section-one .content-one p {
+  font-size: 0.6rem;
+  flex: 1;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #f1f1f1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+main .index-section-one .content-two {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+main .index-section-one .content-two .item {
+  width: 50%;
+  background: #fff;
+  overflow: hidden;
+  height: 3.75rem;
+  padding-left: 0.5rem;
+}
+
+main .index-section-one .content-two .item .text {
+  float: left;
+  padding-top: 1rem;
+}
+
+main .index-section-one .content-two .item:first-child {
+  margin-right: 2px;
+}
+
+main .index-section-one .content-two .item h2 {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+main .index-section-one .content-two .item h3 {
+  font-size: 0.6rem;
+}
+
+main .index-section-one .content-two .item img {
+  width: 3rem;
+  float: right;
+  margin-right: 0.3rem;
+  padding-top: 0.5rem;
+}
+
+main .index-section-two {
+  margin-top: 0.5rem;
+}
+
+main .index-section-two .title {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+main .index-section-two .title .tt {
+  float: left;
+  margin-top: 0.4rem;
+}
+
+main .index-section-two .title .iconfont {
+  float: right;
+}
+
+main .index-section-two .pro-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  height: 9rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+main .index-section-two .pro-box .pro-item {
+  width: 50%;
+}
+
+main .index-section-two .pro-box .pro-item img {
+  width: 100%;
+  height: 100%;
+}
+
+main .index-section-two .pro-box .pro-item:last-child a {
+  height: 4.5rem;
+  display: block;
+}
+
+main .index-section-two .pro-box .pro-item:last-child a img {
+  width: 100%;
+}
+
+main .index-section-three {
+  margin-top: 0.5rem;
+}
+
+main .index-section-three .title {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  padding: 0 0.5rem;
+  height: 1.875rem;
+  background: #fff;
+  line-height: 1.875rem;
+}
+
+main .index-section-three .title .tt {
+  margin-top: 0.4rem;
+}
+
+main .index-section-three .title p {
+  flex: 1;
+  color: deeppink;
+  font-size: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+main .index-section-three .title p span {
+  color: #fff;
+  padding: 0.2rem 0.25rem;
+  background: deeppink;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+main .index-section-three .pro-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  padding: 0 0.5rem;
+  background: #fff;
+}
+
+main .index-section-three .pro-box .pro-item {
+  width: 33.333%;
+  text-align: center;
+  margin-right: 0.5rem;
+  font-size: 0.6rem;
+}
+
+main .index-section-three .pro-box .pro-item:last-child {
+  margin-right: 0;
+}
+
+main .index-section-three .pro-box .pro-item p {
+  color: indianred;
+}
+
+main .index-section-three .pro-box .pro-item img {
+  width: 100%;
+}
+
+main .ad-banner {
+  width: 100%;
+  height: 8rem;
+  margin-top: 0.5rem;
+}
+
+main .ad-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+main .index-section-four {
+  margin-top: 0.5rem;
+}
+
+main .index-section-four .title {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+main .index-section-four .title .tt {
+  float: left;
+  margin-top: 0.4rem;
+}
+
+main .index-section-four .title .iconfont {
+  float: right;
+}
+
+main .index-section-four .pro-box {
+  width: 100%;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  background: #fff;
+  height: 11.75rem;
+  overflow: hidden;
+}
+
+main .index-section-four .pro-box .pro-item {
+  float: left;
+  background: #fff;
+}
+
+main .index-section-four .pro-box .pro-item h2 {
+  margin-top: 0.5rem;
+  font-size: 0.6rem;
+  color: #333;
+  line-height: 1.25rem;
+}
+
+main .index-section-four .pro-box .pro-item h4 {
+  font-size: 0.5rem;
+  color: #9a9a9a;
+}
+
+main .index-section-four .pro-box .pro-item:not(:first-child) img {
+  width: 50%;
+  height: 50%;
+}
+
+main .index-section-four .pro-box .pro-item:first-child {
+  width: 40%;
+}
+
+main .index-section-four .pro-box .pro-item:first-child img {
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+main .index-section-four .pro-box .pro-item:nth-child(2) {
+  width: 30%;
+}
+
+main .index-section-four .pro-box .pro-item:nth-child(2) a {
+  height: 5.375rem;
+  display: block;
+}
+
+main .index-section-four .pro-box .pro-item:nth-child(3) {
+  width: 30%;
+}
+
+main .index-section-four .pro-box .pro-item:nth-child(3) a {
+  height: 5.375rem;
+  display: block;
+}
+
+main .index-section-five {
+  margin-top: 0.5rem;
+}
+
+main .index-section-five .title {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+main .index-section-five .title .tt {
+  float: left;
+  margin-top: 0.4rem;
+}
+
+main .index-section-five .title .iconfont {
+  float: right;
+}
+
+main .index-section-five .banner {
+  width: 100%;
+  height: 7.5rem;
+}
+
+main .index-section-five .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+main .index-section-five .pro-box {
+  width: 100%;
+  height: 8rem;
+  background: #fff;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  position: relative;
+}
+
+main .index-section-five .pro-box:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5rem solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -1rem;
+  margin-left: -0.25rem;
+}
+
+main .index-section-five .pro-box .pro-item {
+  flex: 1;
+  text-align: center;
+  font-size: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main .index-section-five .pro-box .pro-item img {
+  height: 5rem;
+  width: 5rem;
+}
+
+main .index-section-five .pro-box .pro-item span {
+  color: #ff6400;
+}
+
+main .index-section-five .pro-box .pro-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+main .index-section-six {
+  margin-top: 0.5rem;
+}
+
+main .index-section-six .title {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+main .index-section-six .title .tt {
+  float: left;
+  margin-top: 0.4rem;
+}
+
+main .index-section-six .title .iconfont {
+  float: right;
+}
+
+main .index-section-six .pro-box {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+main .index-section-six .pro-box .pro-item {
+  width: 50%;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main .index-section-six .pro-box .pro-item img {
+  width: 100%;
+}
+
+main .index-section-six .pro-box .pro-item span {
+  color: #ff6400;
+}
+
+main .index-section-seven {
+  margin-top: 0.5rem;
+}
+
+main .index-section-seven .title {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+main .index-section-seven .title .tt {
+  float: left;
+  margin-top: 0.4rem;
+}
+
+main .index-section-seven .title .iconfont {
+  float: right;
+}
+
+main .index-section-seven .pro-box {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+main .index-section-seven .pro-box .pro-item {
+  width: 50%;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main .index-section-seven .pro-box .pro-item img {
+  width: 100%;
+}
+
+main .index-section-seven .pro-box .pro-item span {
+  color: #ff6400;
+}

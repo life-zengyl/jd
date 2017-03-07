@@ -1,0 +1,12 @@
+body {
+  background: #e45349;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  width: 5vw;
+  height: 5vh;
+  background: #efefff;
+  border-radius: 1vh;
+}
