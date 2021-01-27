@@ -2,7 +2,7 @@
  * Created by Administrator on 2016/12/27.
  */
 $(function () {
-    //导航
+    //导航菜单
    $('.left-nav').on('mouseover','li',function (event) {
        $(this).addClass('hover').siblings().removeClass('hover');
       var index=$(this).index();
